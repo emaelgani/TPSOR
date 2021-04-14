@@ -1,0 +1,10 @@
+cortar|ajo|perejil
+mezclar|ajo|perejil|huevo
+salar mezcla|ajo|perejil|huevo
+hornear pan|masa
+agregar carne a la mezcla|ajo|perejil|huevo|carne
+empanar milanesa|pan rallado
+cocinar milanesa|aceite
+cortar otros ingredientes|lechuga fresca|tomate|cebolla morada|pepino
+armar sanguche|milanesa|lechuga fresca, tomate, cebolla morada, pepino|panes
+
