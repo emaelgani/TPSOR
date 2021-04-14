@@ -27,7 +27,7 @@ Mediante el esquema planteado pude crear el siguiente pseudocódigo:
 - mutexSalero = 1
 - mutexSarten = 1
 
-Como se observa he decidido utilizar un semáforo global para el horno, el cual es inicializado en 2 ya que como máximo pueden acceder 2 equipos. A su vez utilizo un mutex para el salero y el sarten ya que solo puede usarlo 1 equipo a la vez.
+Como se observa he decidido utilizar un semáforo global para el horno, el cual es inicializado en 2 ya que como máximo pueden acceder 2 equipos. A su vez utilizo un mutex para el salero y otro para el sarten ya que solo pueden usarlo 1 equipo a la vez.
 #### Semáforos propios del equipo:
 - sem_mezclar = 0
 - sem_salar  = 0
