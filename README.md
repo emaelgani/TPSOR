@@ -3,7 +3,7 @@
 **Básicamente este proyecto se puede resumir en que 4 equipos compiten por terminar primero un sanguche!! 😮,  pero a su vez no cuentan con el equipamiento individual!!, por lo tanto se tendrá que controlar el acceso a tales recursos compartidos!! 😱**
 ## Comenzando 🤓
 _Para iniciar este desafío, lo primero que me propuse a realizar es un pseudocódigo que me permita observar con distinto panorama el trabajo práctico, de esta manera tuve una gran facilidad para implementarlo, ya que al tener una idea concreta, la única dificultad que pude encontrar es la sitaxis de programación en C, por lo tanto tuve que investigar como escribir en un archivo, leer, etc._ 📝
-Para poder realizar el psudocódigo el primer paso fue leer bien el problema y entender que acciones existen y a cuales habilitan.
+Para poder realizar el psudocódigo el primer paso fue leer bien el problema y entender que acciones existen y a cuales habilitan. 📖
 
 ### Acciones
 - Cortar 2 dientes de ajo y un puñado de perejil
@@ -62,4 +62,7 @@ void* cortar(void *data) {
 }
 
 ```
-_Tal función define la estructura de todas las funciones del programa, por lo tanto el siguiente paso que realicé fue crear la funcion mezclar(), la cual habilita a poner sal y así sucesivamente. **Este proceso lo lleve acabo sin ningún problema, ya que tenía la estructura en mente de lo que debía realizar**.
+_Tal función define la estructura de todas las funciones del programa, por lo tanto el siguiente paso que realicé fue crear la funcion mezclar(), la cual habilita a poner sal y así sucesivamente._ **Este proceso lo lleve acabo sin ningún problema, ya que tenía la estructura en mente de lo que debía realizar**.
+
+##### Pequeño problema encontrado ❓ ❔
+_El primer problema que tuve es realizar la acción de levantar la receta desde un archivo.txt, estuve tratando de implementarla pero no podía separar la acción de los ingredientes, por lo cual mi idea fue implementar en el archivo receta.txt el siguiente algoritmo: acción|parámetro|parámetro|... , de esta manera 
