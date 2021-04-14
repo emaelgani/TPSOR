@@ -38,6 +38,28 @@ Como se observa he decidido utilizar un semáforo global para el horno, el cual 
 - sem_armarSanguche2  = 0
 - sem_armarSanguche3  = 0
 
-#### Imagen que muestra las funciones y con los semáforos que depende y a los que afecta
+#### Imagen que muestra como interactuan las funciones mediante los semáforos.
 
 ![Muestra](https://user-images.githubusercontent.com/65500254/114777131-afa60a80-9d49-11eb-8f39-abb2d7181271.png)
+
+### Siguiente paso
+_Una vez que tuve el diagrama realizado correctamente con una idea concreta y bien definida de lo que debo hacer con respecto a la problemática, el siguiente paso fue abrir el archivo.c para analizar su sintaxis. Este paso no me costó mucho trabajo ya que básicamente el archivo contenía un ejemplo y a través de los comentarios me indicaba que tenía tareas tenía que realizar y cuales faltaban. Por lo tanto seguí la lógica que estaba planteada con respecto a la siguiente función:_
+```
+//funcion para tomar de ejemplo
+void* cortar(void *data) {
+	//creo el nombre de la accion de la funcion 
+	char *accion = "cortar";
+	//creo el puntero para pasarle la referencia de memoria (data) del struct pasado por parametro (la cual es un puntero). 
+	struct parametro *mydata = data;
+	//llamo a la funcion imprimir le paso el struct y la accion de la funcion
+	imprimirAccion(mydata,accion);
+	//uso sleep para simular que que pasa tiempo
+	usleep( 20000 );
+	//doy la señal a la siguiente accion (cortar me habilita mezclar)
+    sem_post(&mydata->semaforos_param.sem_mezclar);
+	
+    pthread_exit(NULL);
+}
+
+```
+_Tal función define la estructura de todas las funciones del programa, por lo tanto el siguiente paso que realicé fue crear la funcion mezclar(), la cual habilita a poner sal y así sucesivamente. **Este proceso lo lleve acabo sin ningún problema, ya que tenía la estructura en mente de lo que debía realizar**.
