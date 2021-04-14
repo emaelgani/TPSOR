@@ -1,2 +1,3 @@
 # Trabajo Práctico Threads y Semáforos
-## Emanuel Elgani Sauer Esteban
+**Proyecto basado en crear un programa utilizando Threads y Semáforos , en el cual compiten 4 equipos para terminar primero un sanguche!!**
+## Alumno Emanuel Elgani Sauer Esteban
