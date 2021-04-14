@@ -37,3 +37,7 @@ Como se observa he decidido utilizar un semáforo global para el horno, el cual 
 - sem_armarSanguche1  = 0
 - sem_armarSanguche2  = 0
 - sem_armarSanguche3  = 0
+
+#### Imagen que muestra las funciones y con los semáforos que depende y a los que afecta
+
+![Muestra](https://user-images.githubusercontent.com/65500254/114777131-afa60a80-9d49-11eb-8f39-abb2d7181271.png)
