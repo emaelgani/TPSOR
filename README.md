@@ -40,7 +40,7 @@ Como se observa he decidido utilizar un semáforo global para el horno, el cual 
 
 #### Imagen que muestra como interactuan las funciones mediante los semáforos.
 
-![Muestra](https://user-images.githubusercontent.com/65500254/114777131-afa60a80-9d49-11eb-8f39-abb2d7181271.png)
+![Muestra](https://user-images.githubusercontent.com/65500254/114901740-79b96280-9deb-11eb-8301-182cf0a56a80.png)
 
 
 ### Siguiente paso
