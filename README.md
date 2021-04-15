@@ -42,6 +42,7 @@ Como se observa he decidido utilizar un semáforo global para el horno, el cual 
 
 ![Muestra](https://user-images.githubusercontent.com/65500254/114777131-afa60a80-9d49-11eb-8f39-abb2d7181271.png)
 
+
 ### Siguiente paso
 _Una vez que tuve el diagrama realizado correctamente con una idea concreta y bien definida de lo que debo hacer con respecto a la problemática, el siguiente paso fue abrir el archivo.c para analizar su sintaxis. Este paso no me costó mucho trabajo ya que básicamente el archivo contenía un ejemplo y a través de los comentarios me indicaba que tenía tareas tenía que realizar y cuales faltaban. Por lo tanto seguí la lógica que estaba planteada con respecto a la siguiente función:_
 ```
