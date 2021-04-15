@@ -65,4 +65,4 @@ void* cortar(void *data) {
 _Tal función define la estructura de todas las funciones del programa, por lo tanto el siguiente paso que realicé fue crear la funcion mezclar(), la cual habilita a poner sal y así sucesivamente._ **Este proceso lo lleve acabo sin ningún problema, ya que tenía la estructura en mente de lo que debía realizar**.
 
 ##### Pequeño problema encontrado ❓ ❔
-_El primer problema que tuve es realizar la acción de levantar la receta desde un archivo.txt, estuve tratando de implementarla pero no podía separar la acción de los ingredientes, por lo cual mi idea fue implementar en el archivo receta.txt el siguiente algoritmo: acción|parámetro|parámetro|... , de esta manera 
+_El primer problema que tuve es realizar la acción de levantar la receta desde un archivo.txt, estuve tratando de implementarla pero no podía separar la acción de los ingredientes, por lo cual mi idea fue implementar en el archivo receta.txt el siguiente algoritmo: acción|parámetro|parámetro|... , de esta manera_ 
